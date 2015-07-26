@@ -79,15 +79,30 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Building.h" />
+    <ClInclude Include="enumerations.h" />
+    <ClInclude Include="Garage.h" />
+    <ClInclude Include="House.h" />
+    <ClInclude Include="Office.h" />
+    <ClInclude Include="officeHouse.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Storage.h" />
+    <ClInclude Include="StorageGarage.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Building.cpp" />
+    <ClCompile Include="Garage.cpp" />
+    <ClCompile Include="House.cpp" />
     <ClCompile Include="HouseCalculator.cpp" />
+    <ClCompile Include="Office.cpp" />
+    <ClCompile Include="officeHouse.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Storage.cpp" />
+    <ClCompile Include="StorageGarage.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
